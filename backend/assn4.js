@@ -1,10 +1,10 @@
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-    host: "localhost",
-    user: "nodeuser",
-    password: "nodeuser",
-    database: "users"
+    host: "***********",
+    user: "************",
+    password: "**************",
+    database: "************"
 });
 updateUser();
 console.log("Welcome to your database, you have four options: \nPress 1 to create new data, \nPress 2 to update existing data, \nPress 3 to retrieve data, \nPress 4 to delete data, \nPress 5 to exit.");
@@ -328,4 +328,5 @@ const rl = readline.createInterface({
       });
     });
   }
+
   
